@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+ul li {
+    list-style-type: none;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+/* Navbar Part Css */
+.navbar {
+    padding: 25px 0px;
+}
+.nav-logo a span {
+    font-weight: bold;
+    font-size: 28px;
+    color: orangered;
+}
+.navLink>ul>li{
+    display: inline-block;
+}
+.navLink>ul>li>a {
+    margin: 0px 15px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.navLink>ul>li>a:hover {
+    color: orangered;
+}
+
+/* Banner Part Css */
+.banner {
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 20px;
+    border-radius: 20px;
+}
+.banner_content {
+    width: 60%;
+}
+.banner_content h1 {
+    font-weight: bolder;
+    font-size: 50px;
+    color: orangered;
+    padding-bottom: 30px;
+}
+.banner_content p {
+    font-size: 19px;
+    padding-bottom: 15px;
+}
+.banner_list {
+    padding-bottom: 30px;
+    font-weight: 600;
+    padding-left: 20px;
+}
+.banner_list>ul>li {
+    list-style-type: disc;
+}
+
+.banner_content button {
+    background-color: orangered;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.banner_content button a {
+    font-weight: 500;
+    font-size: 22px;
+    color: white;
+}
+/* Heading Part Start */
+#about {
+    padding: 50px 0px;
+}
+.heading {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.heading h2 {
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: orangered;
+}
+/* About Part Css */
+.about_left {
+    width: 50%;
+}
+.about_right {
+    width: 50%;
+}
+.about_right img {
+    width: 20px;
+}
+.about-details-container {
+    /* text-align: center; */
+    border: 4px solid orangered;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+.flex-about {
+    display: flex;
+    justify-content: space-around;
+}
