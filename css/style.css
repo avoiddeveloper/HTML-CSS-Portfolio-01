@@ -32,9 +32,11 @@ ul li {
     display: inline-block;
 }
 .navLink>ul>li>a {
-    margin: 0px 15px;
-    font-weight: 500;
     font-size: 18px;
+    font-weight: 600;
+    color: #1E1E1E;
+    margin-left:30px;
+
 }
 .navLink>ul>li>a:hover {
     color: orangered;
@@ -46,74 +48,168 @@ ul li {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 100px 20px;
-    border-radius: 20px;
+    padding: 100px 30px;
+    border-radius: 15px;
+    margin-bottom: 75px;
 }
 .banner_content {
     width: 60%;
 }
+.banner_content h3 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
 .banner_content h1 {
-    font-weight: bolder;
-    font-size: 50px;
-    color: orangered;
-    padding-bottom: 30px;
+    font-size: 80px;
+    font-weight: 700;
+    color: #1E1E1E;
+    padding-bottom: 20px;
 }
 .banner_content p {
-    font-size: 19px;
-    padding-bottom: 15px;
-}
-.banner_list {
-    padding-bottom: 30px;
-    font-weight: 600;
-    padding-left: 20px;
-}
-.banner_list>ul>li {
-    list-style-type: disc;
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    padding-bottom: 20px;
 }
 
 .banner_content button {
-    background-color: orangered;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 10px;
+    border-radius: 8px;
+    border: 2px solid orangered;
+    color: orangered;
+    background: transparent;
+    padding: 10px 15px;
+    transition: all linear 0.2s;
 }
 .banner_content button a {
+    color: orangered;
     font-weight: 500;
-    font-size: 22px;
+    font-size: 18px;
+}
+.banner_content button:hover {
+    color: white;
+    border: 2px solid white;
+    background-color: orangered;
     color: white;
 }
-/* Heading Part Start */
-#about {
-    padding: 50px 0px;
+.banner_content button:hover a {
+    color: white;
 }
+
+
+/* Heading Part */
+
 .heading {
     text-align: center;
-    padding-bottom: 30px;
 }
 .heading h2 {
-    font-size: 25px;
+    font-size: 35px;
     font-weight: 700;
-    text-transform: uppercase;
-    color: orangered;
+    color: #1E1E1E;
+    padding-bottom: 18px;
 }
-/* About Part Css */
-.about_left {
-    width: 50%;
+.heading p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    padding-bottom: 22px;
 }
-.about_right {
-    width: 50%;
-}
-.about_right img {
-    width: 20px;
-}
-.about-details-container {
-    /* text-align: center; */
-    border: 4px solid orangered;
-    padding: 10px;
-    border-radius: 8px;
-    margin-bottom: 25px;
-}
-.flex-about {
+/* About Part */
+#about {
+    background-color: antiquewhite;
+    padding: 40px 30px;
+    border-radius: 15px;
+    margin-bottom: 75px;
+ }
+ .about_data {
+    text-align: center;
+ }
+ .about_container {
     display: flex;
     justify-content: space-around;
-}
+    margin-top: 20px;
+ }
+ .about_data p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+ }
+ .about_data strong {
+    font-size: 20px;
+    color: #474747;
+ }
+ /* Skills Part */
+ #skills {
+    margin-bottom: 75px;
+ }
+ .gap {
+    gap: 22px;
+ }
+ .skill-container  {
+    border: 2px solid rgba(117, 117, 117, 0.433);
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+ }
+ .skill-container i {
+    font-size: 50px;
+ }
+ .skill-container h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1E1E1E;
+    padding: 10px 0px;
+ }
+ /* Contact Part */
+ #contact {
+    background-color: antiquewhite;
+    padding: 90px;
+ }
+ .left-content {
+    width: 50%;
+ }
+ .left-content h4 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #1E1E1E;
+    padding-bottom: 15px;
+ }
+ .left-content p {
+    font-size: 16;
+    font-weight: 400;
+    color: #757575;
+    line-height: 28px;
+    padding-bottom: 10px;
+ }
+ .left-content i {
+    font-size: 28px;
+    color: orangered;
+    margin-right: 8px;
+ }
+ .right-content {
+    width: 50%;
+ }
+ .right-content h4 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #1E1E1E;
+    padding-bottom: 15px;
+ }
+ .right-content input {
+    font-size: 16;
+    font-weight: 400;
+    color: #757575;
+    border: none;
+    padding: 20px 10px;
+    margin-bottom: 10px;
+    width: 100%;
+ }
+ .right-content button {
+    border: none;
+    background-color: orangered;
+    padding: 10px 15px;
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+ }
